@@ -4,8 +4,7 @@
 
 ## 1-Web Crawler:
 
-The web crawler is a software agent that collects documents from the web. The crawler starts with a list of URL
-addresses (seed set). It downloads the documents identified by these URLs and extracts hyper-links from them.
+The web crawler is a software agent that collects documents from the web. The crawler starts with a list of URL addresses (seed set). It downloads the documents identified by these URLs and extracts hyper-links from them.
 The extracted URLs are added to the list of URLs to be downloaded. Thus, web crawling is a recursive process.
 
 **Number of Crawled pages is 5000 pages**
@@ -51,7 +50,7 @@ phrase.
 
 The ranker module sorts documents based on their popularity and relevance to the search query.
 
-**A. _Relevance*_*
+**A. _Relevance_**
 
 Relevance is a relation between the query words and the result page and could be calculated in several
 ways such as tf-idf of the query word in the result page or simply whether the query word appeared in
