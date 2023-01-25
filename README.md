@@ -2,7 +2,7 @@
 
 ## Search Engine Modules:
 
-###### Web Crawler:
+## Web Crawler:
 
 The web crawler is a software agent that collects documents from the web. The crawler starts with a list of URL
 addresses (seed set). It downloads the documents identified by these URLs and extracts hyper-links from them.
@@ -22,7 +22,7 @@ on the list without revisiting documents that have been previously downloaded.**
 referring to the same page.**
 
 
-###### Indexer:
+## Indexer:
 
 The output of web crawling process is a set of downloaded HTML documents. To respond to user queries fast
 enough, the contents of these documents have to be indexed in a data structure that stores the words
