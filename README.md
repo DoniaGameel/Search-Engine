@@ -1,4 +1,7 @@
 # Search-Engine
+
+**How to run the project?**
+
 1-Run CrawlerMain file0
 
 2-Run Index file
