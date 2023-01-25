@@ -57,7 +57,7 @@ ways such as tf-idf of the query word in the result page or simply whether the q
 the title, heading, or body. And then you aggregate the scores from all query words to produce the final
 page relevance score.
 
-**B._ Popularity_**
+**B._Popularity_**
 
 Popularity is a measure for the importance of any web page regardless the requested query. You can
 use pagerank algorithm (as explained in the lecture) or other ranking algorithms to calculate each page
