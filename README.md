@@ -2,7 +2,7 @@
 
 ## Search Engine Modules:
 
-## Web Crawler:
+## 1-Web Crawler:
 
 The web crawler is a software agent that collects documents from the web. The crawler starts with a list of URL
 addresses (seed set). It downloads the documents identified by these URLs and extracts hyper-links from them.
@@ -22,7 +22,7 @@ on the list without revisiting documents that have been previously downloaded.**
 referring to the same page.**
 
 
-## Indexer:
+## 2-Indexer:
 
 The output of web crawling process is a set of downloaded HTML documents. To respond to user queries fast
 enough, the contents of these documents have to be indexed in a data structure that stores the words
@@ -36,6 +36,39 @@ structure or use a database.**
 
 ● **_Incremental Update_: It must be possible to update an existing index with a set of newly crawled HTML documents.**
 
+## 3-Query Processor
+
+This module receives search queries, performs necessary preprocessing and searches the index for relevant
+documents. Retrieve documents containing words that share the same stem with those in the search query.
+For example, the search query “travel” should match (with lower degree) the words “traveler”, “traveling” ... etc.
+
+## 4-Phrase Searching
+
+Search engines will generally search for words as phrases when quotation marks are placed around the
+phrase.
+
+## 5-Ranker
+
+The ranker module sorts documents based on their popularity and relevance to the search query.
+
+**A. _Relevance*_*
+
+Relevance is a relation between the query words and the result page and could be calculated in several
+ways such as tf-idf of the query word in the result page or simply whether the query word appeared in
+the title, heading, or body. And then you aggregate the scores from all query words to produce the final
+page relevance score.
+
+**B._ Popularity_**
+
+Popularity is a measure for the importance of any web page regardless the requested query. You can
+use pagerank algorithm (as explained in the lecture) or other ranking algorithms to calculate each page
+popularity.
+
+## 6-Web Interface
+
+● This interface receives user queries and displays the resulting pages returned by the engine
+
+● The result appears with snippets of the text containing queries words.
 
 ## How to run the project?
 
