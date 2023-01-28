@@ -80,3 +80,13 @@ popularity.
 4-Make sure that tomcat server is open
 
 5-Open your browser and search for: localhost:8080/searchPage.html
+
+## Contributors
+
+[Donia Gameel](https://github.com/DoniaGameel).
+
+[Heba Ashraf](https://github.com/hebaashraf21).
+
+[Mamdouh Attia](https://github.com/Mamdouh-Attia).
+
+[Salma Ragab](https://github.com/SalmaRagab279).
